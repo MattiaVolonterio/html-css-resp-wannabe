@@ -135,3 +135,17 @@ img {
     width: 100%;
   }
 }
+
+/* MEDIA QUERY 480 */
+
+@media screen and (max-width: 480px) {
+  .lessons .row {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .lessons .col {
+    width: 100%;
+  }
+}
